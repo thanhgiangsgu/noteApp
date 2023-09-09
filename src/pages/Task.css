@@ -1,0 +1,50 @@
+.boards-page-team-section
+{
+    width: 80%;
+    display: flex;
+}
+
+.boards-page-team-section .board-item
+{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    margin: 15px;
+    border: 2px solid darkslategray;
+}
+
+.boards-page-team-section .board-item:hover
+{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.boards-page-team-section .board-item .board-item-title
+{
+     position: absolute;
+     top: 0;
+     left: 10px;   
+     font-size: 25px;
+}
+
+.sizeModalProject
+{
+    width: 1200px !important;
+}
+
+.board-item_control
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.board-item_control button{
+    background-color: transparent;
+  color: inherit;
+  border: none; /* this property is redundant and can be removed */
+  font-size: 30px;  
+  font-weight: 500; 
+}

@@ -1,0 +1,20 @@
+
+.project-container
+{
+    width: 100%;
+}
+.board-canvas
+{
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+}
+
+.board-canvas .task-box
+{
+    width: 300px;
+    background-color: var(--ds-background-accent-gray-subtlest,#ebecf0);
+    border-radius: 3px;
+    
+}
+

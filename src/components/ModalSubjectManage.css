@@ -1,0 +1,18 @@
+.sizeModal{
+    width: 1200px;
+    height: 600px;
+}
+
+/* .ant-modal-content
+{
+    width: 1200px;
+    margin-left: -60%;
+} */
+
+.sizeModal{
+    width: 1200px !important;
+}
+
+.sizeModalAddLesson{
+   width: 500px !important;
+}

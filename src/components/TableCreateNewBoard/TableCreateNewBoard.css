@@ -1,0 +1,30 @@
+.box-preview
+{
+    border: 1px white solid;
+    margin: 10px auto;
+    background-color: aliceblue;
+}
+
+.box-preview-title
+{
+    padding: 15px
+}
+
+
+
+.radio-item
+{
+    width: 65px;
+    margin: 5px;   
+    border: 4px solid none;
+}
+
+.radio-item span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  .radio-item:checked span {
+    border: 2px solid black;
+  }
